@@ -19,22 +19,21 @@ export function CartModal() {
       return
     }
 
-    // Criar mensagem para WhatsApp
-    let message = "🛍️ *Olá! Gostaria de finalizar minha compra:*\n\n"
+    // Criar mensagem para WhatsApp sem emojis, formato limpo e informando origem do site
+    let message = "Olá! Gostaria de finalizar minha compra:\n\n"
 
     items.forEach((item, index) => {
       message += `${index + 1}. *${item.name}*\n`
-      message += `   📏 Tamanho: ${item.size}\n`
-      message += `   🎨 Cor: ${item.color}\n`
-      message += `   📦 Quantidade: ${item.quantity}\n`
-      message += `   💰 Valor: R$ ${(item.price * item.quantity).toFixed(2).replace(".", ",")}\n\n`
+      message += `   Tamanho: ${item.size}\n`
+      message += `   Cor: ${item.color}\n`
+      message += `   Quantidade: ${item.quantity}\n`
+      message += `   Valor: R$ ${(item.price * item.quantity).toFixed(2).replace(".", ",")}\n\n`
     })
 
-    message += `*💳 TOTAL: R$ ${getTotalPrice().toFixed(2).replace(".", ",")}*\n\n`
-    message += `🔥 *Promoção exclusiva para seguidores do Instagram!*\n`
-    message += `Aguardo retorno para finalizar a compra! 😊`
+    message += `*TOTAL: R$ ${getTotalPrice().toFixed(2).replace(".", ",")}*\n\n`
+    message += "Mensagem enviada a partir do site Gatas-Shi."
 
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/5562996798457?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
 
     // Limpar carrinho após enviar

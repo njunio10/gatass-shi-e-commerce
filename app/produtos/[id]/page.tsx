@@ -32,11 +32,11 @@ const produtos = [
     description:
       "Calça flare premium confeccionada em tecido de alta qualidade. Perfeita para ocasiões especiais e uso profissional. Modelagem que valoriza a silhueta feminina com elegância e sofisticação.",
     details: [
-      "Tecido: 65% Poliéster, 30% Viscose, 5% Elastano",
-      "Modelagem: Flare",
-      "Cintura: Alta",
-      "Fechamento: Zíper lateral",
-      "Cuidados: Lavar à máquina em água fria",
+    "Tecido: 93% Poliéster, 7% Elastano",
+    "Modelagem: Montaria",
+    "Cintura: Alta com cós largo",
+    "Bolsos: Faca funcionais",
+    "Costura: Lateral com reforço",
     ],
   },
   {
@@ -59,11 +59,11 @@ const produtos = [
     description:
       "Calça slim confeccionada em tecido de alta qualidade. Perfeita para ocasiões especiais e uso profissional. Modelagem que valoriza a silhueta feminina com elegância e sofisticação.",
     details: [
-      "Tecido: 65% Poliéster, 30% Viscose, 5% Elastano",
-      "Modelagem: Flare",
-      "Cintura: Alta",
-      "Fechamento: Zíper lateral",
-      "Cuidados: Lavar à máquina em água fria",
+    "Tecido: 93% Poliéster, 7% Elastano",
+    "Modelagem: Montaria",
+    "Cintura: Alta com cós largo",
+    "Bolsos: Faca funcionais",
+    "Costura: Lateral com reforço",
     ],
   },
   {
@@ -80,11 +80,11 @@ const produtos = [
     description:
       "Short confeccionado em tecido de alta qualidade. Perfeita para ocasiões especiais e uso profissional. Modelagem que valoriza a silhueta feminina com elegância e sofisticação.",
     details: [
-      "Tecido: 65% Poliéster, 30% Viscose, 5% Elastano",
-      "Modelagem: Flare",
-      "Cintura: Alta",
-      "Fechamento: Zíper lateral",
-      "Cuidados: Lavar à máquina em água fria",
+    "Tecido: 93% Poliéster, 7% Elastano",
+    "Modelagem: Montaria",
+    "Cintura: Alta com cós largo",
+    "Bolsos: Faca funcionais",
+    "Costura: Lateral com reforço",
     ],
   },
   {
@@ -101,11 +101,11 @@ const produtos = [
     description:
       "Bermuda confeccionada em tecido de alta qualidade. Perfeita para ocasiões especiais e uso profissional. Modelagem que valoriza a silhueta feminina com elegância e sofisticação.",
     details: [
-      "Tecido: 65% Poliéster, 30% Viscose, 5% Elastano",
-      "Modelagem: Flare",
-      "Cintura: Alta",
-      "Fechamento: Zíper lateral",
-      "Cuidados: Lavar à máquina em água fria",
+    "Tecido: 93% Poliéster, 7% Elastano",
+    "Modelagem: Montaria",
+    "Cintura: Alta com cós largo",
+    "Bolsos: Faca funcionais",
+    "Costura: Lateral com reforço",
     ],
   },
   {
@@ -121,11 +121,8 @@ const produtos = [
     description:
       "Blaze confeccionado em tecido de alta qualidade. Perfeita para ocasiões especiais e uso profissional. Modelagem que valoriza a silhueta feminina com elegância e sofisticação.",
     details: [
-      "Tecido: 65% Poliéster, 30% Viscose, 5% Elastano",
-      "Modelagem: Flare",
-      "Cintura: Alta",
-      "Fechamento: Zíper lateral",
-      "Cuidados: Lavar à máquina em água fria",
+    "Tecido: 93% Poliéster, 7% Elastano",
+    "Modelagem: Montaria", 
     ],
   },
   {
@@ -141,11 +138,8 @@ const produtos = [
     description:
       "Colete confeccionado em tecido de alta qualidade. Perfeita para ocasiões especiais e uso profissional. Modelagem que valoriza a silhueta feminina com elegância e sofisticação.",
     details: [
-      "Tecido: 65% Poliéster, 30% Viscose, 5% Elastano",
-      "Modelagem: Flare",
-      "Cintura: Alta",
-      "Fechamento: Zíper lateral",
-      "Cuidados: Lavar à máquina em água fria",
+    "Tecido: 93% Poliéster, 7% Elastano",
+    "Modelagem: Montaria",
     ],
   },
 ]
