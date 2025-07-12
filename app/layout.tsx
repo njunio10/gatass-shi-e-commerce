@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Gatas-Shi",
     images: [
       {
-        url: "/logogataedit.png",
+        url: "https://gatasshi.netlify.app/logogataedit.png",
         width: 1200,
         height: 630,
         alt: "Gatas-Shi - Moda Feminina",
